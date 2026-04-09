@@ -1,0 +1,105 @@
+/* =========================== */
+/* Estilos Página CBA San Jose de Marinilla
+Autor: Gustavo Cardona 
+email: admin@gustavocardona.com
+Página: www.gustavocardona.com
+
+Estos estilos son creados y adaptados en base a las peticiones del cliente, CBA San José de Marinilla, con sus respetivos cambios para la imagen corporativa y una mejor visualización
+
+*
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.division-gradient{
+    background: rgb(172,118,45);
+    background: linear-gradient(90deg, rgba(172,118,45,1) 0%, rgba(234,206,99,1) 33%, rgba(235,214,136,1) 50%, rgba(234,206,99,1) 68%, rgba(172,118,45,1) 100%);
+}
+
+.header-gradient{
+    height: 15px;
+}
+
+.info-asilo{
+    display: flex;
+    background-color: #006633;
+    color: #FFFFFF;
+    align-content: space-between;
+}
+
+.info-asilo a{
+    color: #FFFFFF;
+}
+
+.map-ping{
+    width: 18px;
+}
+
+.slogan{
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: #002b86;
+}
+
+.icons-cba{
+    width: 15%;
+}
+
+.icons-valores{
+    width: 25%;
+    margin-top: -20%;
+}
+
+.somos-section{
+    background-image: url(../images/background-sides.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333333  ;
+}
+
+.info-coporativa{
+    font-size: 16px;
+}
+
+.whatsapp-button{
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .video-proyecto {
+    overflow: hidden;
+    width: 100%;
+    
+  }
+
+  .servicio-content{
+    color: #FFFFFF;
+  }
+
+  .servicio-content h3{
+    color: #FFFFFF;
+  }
+
+
+  
+  @media only screen and (max-width:767px) {
+
+    .icons-valores{
+        width: 25%;
+        margin-top: -20%;
+    }
+
+
+  }
