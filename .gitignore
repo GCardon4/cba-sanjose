@@ -1,0 +1,7 @@
+# macOS metadata (generated when zipping on macOS)
+__MACOSX/
+.DS_Store
+._*
+
+# Deployment logs
+logs/
